@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "go-task@latest",
+    "talosctl@latest",
+    "age@latest",
+    "sops@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
